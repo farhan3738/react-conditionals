@@ -1,0 +1,44 @@
+button {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 10px;
+  
+}
+
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 13px;
+border: 1px solid #ccc;
+border-radius: 30px;
+box-sizing: border-box;
+border-color: green;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #ed4209;
+}
+
+.abc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
